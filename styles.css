@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa&display=swap');
+
+*{
+    font-family: 'Comfortaa', cursive;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    color: rgb(0, 0, 0);
+    background-color:rgb(223, 242, 252);
+}
+
+nav{
+    background-color: rgb(1, 64, 108);
+    padding: 2rem;
+}
+
+#brand-name{
+    font-size: xx-large;
+    font-weight: bold;
+}
+
+a{
+    color: white;
+    text-decoration: none;
+    float: right;
+    padding-right: 3rem;
+}
+
+.item-active{
+    border: 1px solid;
+    font-weight: bold;
+    padding: 0.5rem 1rem;
+}
+
+.container{
+    width: 70%;
+    margin: auto;
+    padding-top: 2rem;
+}
+
+
+.heading{
+    text-align: center;
+    margin-top: 1rem;
+}
+
+.question-container{
+    padding: 3rem;
+    margin: 1rem 1rem;
+    border: 3px solid rgb(1, 64, 108);
+}
+
+.question-container p{
+    margin: 1rem 1rem;
+}
+
+.container label, input{
+    font-size: 1.5rem;
+}
+
+
+p {
+    font-weight: bold;
+    font-size: large;
+}
+
+label{
+    font-weight: bold;
+    font-size: large;
+    margin: 2rem;
+    padding: 1rem;
+}
+.angle-input, .side-input{
+    margin: 1rem;
+    padding: 1rem 1rem;
+    width: 50%;
+    border: 2px solid rgb(1, 64, 108);
+}
+
+button{
+    font-size: 1.5em;
+    font-weight: bold;
+    padding: 0.5rem;
+    margin: 1rem 1rem;
+    background-color: rgb(1, 64, 108);
+    width: 70%;
+    cursor: pointer;
+    margin-left:auto;
+    margin-right:auto;
+    display:block;
+    margin-top:2%;
+    
+}
+
+#output{
+    font-size: 3em;
+    font-weight: bold;
+    margin: 2rem 1rem;
+    text-align: center;
+}
+
+
+

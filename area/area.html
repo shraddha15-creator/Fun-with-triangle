@@ -1,34 +1,42 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/area/area.css" />
     <title>Area</title>
 </head>
+
 <body>
     <nav>
+        <span id="brand-name">Fun With Triangle</span>
         <a href="/isTriangle/isTriangle.html">Is triangle?</a>
         <a href="/quiz/quiz.html">Play Quiz</a>
         <a href="/hypotenuse/hypotenuse.html">Calculate Hypotenuse</a>
-        <a href="/area//area.html">Calculate Area</a>
+        <a href="/area/area.html" class="item-active">Calculate Area</a>
     </nav>
-    <h1>Check area of a Triangle?</h1>
-    <p>Area of triangle = 1/2(Base * Height)</p>
-    <div class="angle-container">
-        <div class="input-container">
-            <label for="base">Base(in cm)
-                <input id="base" class="input-area" />
-            </label>
+    <h1 class="heading">Check area of a Triangle?</h1>
+    <div class="container">
+        <p>Area of triangle = 1/2(Base * Height)</p>
+        <div class="angle-container">
+            <div class="input-container">
+                <label for="base">Enter Base ( in cm )
+                    <input id="base" class="input-area" />
+                </label>
+            </div>
+            <div class="input-container">
+                <label for="height">Enter Height(in cm)
+                    <input id="height" class="input-area" />
+                </label>
+            </div>
+            <button id="area-btn" class="btn">Check Area</button>
         </div>
-        <div class="input-container">
-            <label for="height">Height(in cm)
-                <input id="height" class="input-area" />
-            </label>
-        </div>
-        <button id="area-btn">Check Area</button>
+        <div id="output" class="output"></div>
     </div>
-    <div id="output" class="output"></div>
+
     <script src="area.js"></script>
 </body>
+
 </html>
