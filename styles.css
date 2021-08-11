@@ -19,6 +19,7 @@ nav{
 #brand-name{
     font-size: xx-large;
     font-weight: bold;
+    text-shadow: 0 0 5px #ffffff;
 }
 
 a{
@@ -99,6 +100,18 @@ button{
     font-weight: bold;
     margin: 2rem 1rem;
     text-align: center;
+}
+
+footer{
+    float: left;
+    margin-left: 43rem;
+}
+
+.footer a {
+    padding-inline: 1rem;
+    font-size: 50px;
+    color: rgb(1, 64, 108);
+    text-decoration: none;
 }
 
 
