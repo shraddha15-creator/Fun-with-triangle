@@ -50,12 +50,17 @@ a{
     color: black;
     padding: 30px 30px;
     border: 3px solid rgb(1, 64, 108);
+    background-color: rgb(139, 168, 189);
     border-radius: 5px;
     text-align: center;
     padding-inline: 5rem;
     font-size: 30px;
     color: rgb(1, 64, 108);
     text-decoration: none;
+}
+
+#container-main a:hover{
+    background-color:white;
 }
 
 .heading{
